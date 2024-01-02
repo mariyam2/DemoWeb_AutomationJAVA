@@ -2,11 +2,12 @@
 **Tools Used:**
   -Selenium
   -JDK-21
-  -Maven (with dependencies)
+  -Maven 
   -IDE: IntelliJ
 
 **Prerequisites:**
  Java version above 11
+ Apache Maven
  Allure installed with environment variables set
  Cucumber plugin installed in IntelliJ
 
