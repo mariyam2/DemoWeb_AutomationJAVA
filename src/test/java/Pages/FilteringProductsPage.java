@@ -18,13 +18,13 @@ public class FilteringProductsPage {
 
     public static void clickFilter() throws InterruptedException {
         driver.findElement(By.xpath(clickOnFilter)).click();
-        Thread.sleep(6000);
+        Thread.sleep(2000);
 
     }
 
     public static void doSelectFilter() throws InterruptedException {
         driver.findElement(By.xpath(selectFilter)).click();
-        Thread.sleep(6000);
+        Thread.sleep(2000);
 
     }
 

@@ -10,7 +10,7 @@ public class FilteringProductsStep {
 @When("user clicks on filter")
     public static void userClicksOnFilter() throws InterruptedException{
      clickFilter();
-     Thread.sleep(5000);
+     Thread.sleep(2000);
 }
 
 

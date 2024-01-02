@@ -9,7 +9,7 @@ public class LoginStep {
     @Given("^User Logins with (.*) and (.*)$")
     public void loginUserPassword(String uname, String password) throws InterruptedException{
         doLogin(uname,password);
-        Thread.sleep(200);
+        Thread.sleep(2000);
 
 
     }
